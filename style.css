@@ -201,21 +201,31 @@ img{
 .home__social{
   display: flex;
   flex-direction: column;
+  transition: all 200ms ease-in-out;
+}
+.home__social a{
+  transform: translateY(-5px);
 }
 .home__social-icon{
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: 38px;
   color: var(--second-color);
 }
 .home__social-icon:hover{
   color: var(--first-color);
 }
+.home__social-icon:hover{
+  transform: translateY(-5px);
+}
 .home__img{
   position: absolute;
   right: 0;
-  bottom: 0;
+  /* bottom: 0; */
+  top: 75px;
   width: 295px;
+ 
 }
 
 
